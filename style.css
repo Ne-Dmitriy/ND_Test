@@ -1,0 +1,56 @@
+html: {
+	cursor: default; 
+}
+
+body {
+	background-image: url(back/backk.png);
+	background-size: 100%; 
+	color: #423c35;   
+	font-family: Arial; 
+	font-weight: 700;  
+	font-size: 20px; 
+} 
+ 
+.q {
+	margin-bottom: 5px; 
+	margin-left: 20px; 
+}  
+
+input { 
+	margin-bottom: 15px;
+	margin-left: 20px;
+	height: 20px;
+	border: 3px solid #857860; 
+	border-radius: 11px;
+	background-color: #eaddaa;
+	font-family: Arial;
+	color: #423c35;
+	font-weight: 700;  
+	font-size: 20px;
+} 
+
+button { 
+	width: 150px;
+	height: 50px;
+	background-color: #eaddaa;
+	color: #423c35;
+	padding: 10px;
+	border: 3px solid #857860; 
+    border-radius: 10px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: 700; 	
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+	margin-top: 15px; 
+	margin-left: 20px;
+}  
+
+.button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 20px 1px rgba(0, 0, 0, 0.20);
+} 
+
+#q1 {
+	width: 250px; 
+}
